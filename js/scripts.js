@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-  $("#jsShow").toggle();
-  });
+  $(".flashcards").click(function() {
+    $(this.children).toggle();
+  })
 });
