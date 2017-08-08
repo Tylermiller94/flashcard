@@ -1,3 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Work+Sans');
+
 .definitions{
   display: none;
+}
+
+.flashcards{
+  float: left;
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  background-color: #e8d7ef;
+  border-radius: 10px;
+  padding-top: 45px;
+  padding: 12px;
+  padding-bottom: 25px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.keywords{
+  text-align: center;
+  padding-top: 100px;
+  font-weight: bold;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body{
+  background-color: #a793ba;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #FFD5E0;
+  margin-right: 40px;
+}
+
+h2{
+  font-size: 250px;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
 }
